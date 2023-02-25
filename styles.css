@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #66CCCC;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  select, button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #009999;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  select:hover, button:hover {
+    background-color: #00cc99
+    ;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 20px;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+  
+  a {
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #009999;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #00CCCC;
+  }
+  

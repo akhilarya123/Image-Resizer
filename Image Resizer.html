@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Resizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Resizer</h1>
+    <form>
+      <label for="file-upload">Upload Image:</label>
+      <input type="file" id="file-upload" name="file-upload"><br><br>
+      
+      <label for="select-size">Select Size:</label>
+      <select id="select-size" name="select-size">
+        <option value="100">100 KB</option>
+        <option value="500">500 KB</option>
+        <option value="1000">1 MB</option>
+        <option value="25000">25 MB</option>
+        <option value="50000">50 MB</option>
+      </select><br><br>
+
+      <label for="select-format">Select output file format:</label><br>
+        <select id="select-format">
+        <option value="jpeg">JPEG</option>
+        <option value="png">PNG</option>
+        </select><br>
+
+      <button id="resize-button" type="button">Resize</button>
+    </form>
+    <br>
+    <img id="output-image" src="#" alt="Resized Image">
+    <br>
+    <a id="download-link" href="#" download>Download Resized Image</a>
+  </div>
+  
+  <script src="image-resizer.js"></script>
+</body>
+</html>
